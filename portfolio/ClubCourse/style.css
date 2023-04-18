@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+tr:nth-child(-n+3) td {
+    color: rgb(123, 123, 123);
+}
+tr:nth-child(odd) {
+    background-color: #d9e6ee;
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+td{
+    border-bottom: 1px solid blue;
+}
